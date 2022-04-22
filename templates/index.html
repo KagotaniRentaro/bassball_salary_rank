@@ -1,0 +1,29 @@
+<body>
+	<h1>{{ title }}</h1>
+	<p>{{ message }}</p>
+	<form action="/result" method="POST" enctype="multipart/form-data">
+		<div>
+			<label for="r1">2021年：</label>
+			<input type="radio" id="r1" name="radio" value="2021">
+		</div>
+		<div>
+			<label for="r2">2020年：</label>
+			<input type="radio" id="r2" name="radio" value="2020">
+		</div>
+		<div>
+			<label for="r3">2019年：</label>
+			<input type="radio" id="r3" name="radio" value="2019">
+		</div>
+		<div>
+			<label for="r4">2018年：</label>
+			<input type="radio" id="r4" name="radio" value="2018">
+		</div>
+		<div>
+			<label for="r5">2017年：</label>
+			<input type="radio" id="r5" name="radio" value="2017">
+		</div>
+		<div>
+			<input type="submit" value="送信">
+		</div>
+	</form>
+</body>
