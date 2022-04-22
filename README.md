@@ -1,5 +1,5 @@
 # bassball_salary_rank
-2017年〜2021年の総年俸と順位をグラフ化するプログラム
+2017年〜2021年の総年俸と順位をFlaskを使ってグラフ化するプログラム
 
 home: https://gyazo.com/0de977f115ca65e7f876215d63611af8
 
